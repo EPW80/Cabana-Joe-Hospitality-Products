@@ -2,7 +2,7 @@
     "Heaters": [
       {
         "id": 1,
-        "name": "Heater",
+        "name": "heaters",
         "price": 129999,
         "imgName": "Heater.png"
       },
