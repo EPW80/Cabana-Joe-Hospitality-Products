@@ -102,7 +102,7 @@ h1 {
   transform: rotateY(320deg) translateZ(calc(206px + 30px));
 }
 
-/*旋转动画设计*/
+
 @keyframes rotate-animation {
   from {
     transform: rotateY(0deg);
