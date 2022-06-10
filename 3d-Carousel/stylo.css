@@ -17,7 +17,7 @@ body {
   background-position-y: 200px;
 }
 
-/*标题*/
+
 h1 {
   text-align: center;
   color: #fff;
@@ -27,14 +27,14 @@ h1 {
   padding-right: 300px;
 }
 
-/*舞台*/
+
 .stage {
   width: 155px;
   height: 185px;
   perspective: 600px;
   margin: 104px auto;
 
-  /*定位*/
+
   position: absolute;
   top: 30%;
   left: 26%;
@@ -47,7 +47,7 @@ h1 {
   perspective: 600px;
   margin: 260px auto;
 
-  /*定位*/
+
   position: absolute;
   top: 30%;
 
@@ -55,7 +55,7 @@ h1 {
   transform: translateX(-50%) translateY(-30%);
 }
 
-/*容器*/
+
 .wrap {
   width: inherit;
   height: inherit;
@@ -63,7 +63,7 @@ h1 {
   position: relative;
 }
 
-/*图片*/
+
 .wrap img {
   display: inline-block;
   width: inherit;
@@ -130,6 +130,21 @@ body {
   display: flex;
   overflow: hidden;
 }
+
+.button3 {
+  position: relative;
+  top: 0;
+  left: 0;
+  width: 120px;
+  height: 64px;
+  line-height: 64px;
+  text-align: center;
+  border: 1px solid #eee;
+  cursor: pointer;
+  transition: 0.3s all;
+  z-index: 1;
+}
+
 .button2 {
   position: relative;
   top: 0;

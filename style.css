@@ -399,7 +399,7 @@ button:active {
   overflow: hidden;
   height: 100vh;
   /* background-color: #b7edf3; */
-  background-image: url('./tienda/public/images/water-villas.jpg');
+  background-image: url('water-villas.jpg');
   background-repeat: no-repeat;
   background-size: 100%;
   background-position: center;
@@ -688,4 +688,29 @@ img.back {
     transition: all 300ms linear;
     perspective: 100%;
   }
+}
+
+.collection {
+  display: grid;
+  grid-auto-columns: max-content;
+  grid-auto-flow: dense;
+  grid-auto-rows: minmax(100px, auto);
+  grid-gap: 25px;
+  grid-template-columns: repeat(3, 1fr);
+  margin: 80px auto;
+  max-width: 1350px;
+  background-color: rgb(205, 255, 254);
+}
+
+.product {
+  grid-column: span 1;
+  grid-row: span 1;
+}
+
+.product__name {
+  font-size: 20px;
+  line-height: 1.3;
+  font-weight: 700;
+  color: #010707;
+  background-color: blanchedalmond;
 }
