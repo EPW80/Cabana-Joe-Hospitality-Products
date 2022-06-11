@@ -132,9 +132,10 @@ body {
 }
 
 .button3 {
-  position: relative;
-  top: 0;
-  left: 0;
+  /* position: fixed; */
+  border-radius: 9px;
+  /* top: 0;
+  left: 0; */
   width: 120px;
   height: 64px;
   line-height: 64px;
@@ -143,6 +144,10 @@ body {
   cursor: pointer;
   transition: 0.3s all;
   z-index: 1;
+  color: blueviolet;
+  background-color: #f5e19f;
+  box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24),
+    0 17px 50px 0 rgba(0, 0, 0, 0.19);
 }
 
 .button2 {
@@ -179,6 +184,18 @@ body {
 }
 
 .button:hover ~ .g-wrap {
+  content: "";
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  transition: 0.3s background linear;
+  background: rgba(0, 0, 0, 0.5);
+  z-index: -1;
+}
+
+.button3:hover ~ .g-wrap {
   content: "";
   position: fixed;
   top: 0;
