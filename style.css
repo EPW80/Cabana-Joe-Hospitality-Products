@@ -146,13 +146,13 @@ a {
 
 .city{
   position: relative;
-  top: 100px;
+  top: 157px;
 }
 
 .city2 {
   position: relative;
   width: 63%;
-  top: 111px;
+  top: 177px;
 }
 
 .hero-section p {
@@ -338,6 +338,13 @@ body.about-on .about-section {
   left: 4px;
 }
 
+.abtBtn {
+  position: relative;
+  /* top: 100px; */
+  bottom: 65px;
+  left: 1289px;
+}
+
 button {
   width: 170px;
   height: 70px;
@@ -348,7 +355,7 @@ button {
   transition: 0.2s;
   /* padding: 10px 15px; */
   position: relative;
-  top: 118px;
+  top: 190px;
   color: #fff;
   border-radius: 3%;
 }

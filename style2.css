@@ -97,3 +97,16 @@ input[type='submit'] {
     width: 100%;
   }
 }
+
+.conBtn {
+  position: relative;
+  right: 23px;
+  margin-top: 30px;
+  width: 90%;
+  max-width: 200px;
+  color: rgb(141 153 99);
+  font-size: 20px;
+  cursor: pointer;
+  /* border-radius: 2px; */
+  
+}

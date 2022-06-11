@@ -1,39 +1,51 @@
 <!DOCTYPE html>
 <html>
+
 <head>
     <meta charset="UTF-8">
     <title> Contact Form Design</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style2.css">
 </head>
+
 <body>
-   <div id="overlay">
-    <form onsubmit="event.preventDefault(); validateForm()">
-        <h1>Contact Us</h1>
+    <div id="overlay">
+        <form onsubmit="event.preventDefault(); validateForm()">
+            <h1>Contact Us</h1>
 
-        <label for="name">Name:</label>
-        <input type="text" id="name" placeholder="Your Name">
-        <small class="error"></small>
+            <label for="name">Name:</label>
+            <input type="text" id="name" placeholder="Your Name">
+            <small class="error"></small>
 
-        <label for="number">Phone Number:</label>
-        <input type="text" id="number" placeholder="Your Phone Number">
-        <small class="error"></small>
+            <label for="number">Phone Number:</label>
+            <input type="text" id="number" placeholder="Your Phone Number">
+            <small class="error"></small>
 
-        <label for="email">Email:</label>
-        <input type="text" id="email" placeholder="Your email">
-        <small class="error"></small>
+            <label for="email">Email:</label>
+            <input type="text" id="email" placeholder="Your email">
+            <small class="error"></small>
 
-        <label for="message">Message:</label>
-        <textarea id="message" placeholder="Your message" rows="6"></textarea>
-        <small class="error"></small>
+            <label for="message">Message:</label>
+            <textarea id="message" placeholder="Your message" rows="6"></textarea>
+            <small class="error"></small>
 
-        <div class="center">
-             <input type="submit" value="Send Message">
-             <p id="success"></p>
-       </div>
+            <div class="center">
+                <input type="submit" value="Send Message">
+                <p id="success"></p>
+            </div>
 
-    </form>
-</div>
-<script src="script2.js"></script>
+            
+            <a href="index.html" class="conBtn">Home</a>
+
+
+
+            </div>
+
+
+
+        </form>
+    </div>
+    <script src="script2.js"></script>
 </body>
+
 </html>
