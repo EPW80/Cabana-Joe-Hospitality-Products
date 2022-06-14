@@ -17,8 +17,7 @@ The client is able to purchase products from our newly designed website as well 
 
 ## Demo of Frontend with Backend, Server and dashboard folders
 
-[DEMO](<iframe src="https://drive.google.com/file/d/1QL3t67_HJbjqiXbcHCCxQMHypU61nf0d/preview" width="640" height="480"></iframe>
-)
+[DEMO](https://drive.google.com/file/d/1QL3t67_HJbjqiXbcHCCxQMHypU61nf0d/view)
 
 ## Installation Instructions for User-Management-System:
 
