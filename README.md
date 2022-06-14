@@ -6,6 +6,8 @@ The goal of this project is to modify the functionality of the Cabana Joe's Hosp
 < /br>
 The client is able to purchase products from our newly designed website as well as receive confirmation of their purchase. When purchasing a new product, the client will also be prompted to enter payment information. At this point, the program will be utilizing stripe. Stripe is a suite of payment APIs that powers commerce for online businesses of all sizes. The applicatyion will also utilize handlebars. Handlebars is a simple templating language. It uses a template and an input object to generate HTML or other text formats. Handlebars templates look like regular text with embedded Handlebars expressions.
 
+## Demo of User-Management-System
+
 ## Installation Instructions for User-Management-System:
 
 ## Create .env file
@@ -53,7 +55,7 @@ https://epw80.github.io/Cabana-Joe-Hospitality-Products/
 ![CJHP: Erik Williams](./User-Management-System/images/cjhp2.png)
 ![CJHP: Erik Williams](./User-Management-System/images/cjhp3.png)
 
-## Demo of User-Management-System
+
 
 ## Questions
 
