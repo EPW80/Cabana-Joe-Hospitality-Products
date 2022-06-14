@@ -5,11 +5,15 @@
 The goal of this project is to modify the functionality of the Cabana Joe's Hospitality Products webpage. Currently, the Website has no on-line store functionality and is coming soon. Our group took on the development of an online store with complete functionality.
 <br />
 <br />
-The client is able to purchase products from our newly designed website as well as receive confirmation of their purchase. When purchasing a new product, the client will also be prompted to enter payment information. At this point, the program will be utilizing stripe. Stripe is a suite of payment APIs that powers commerce for online businesses of all sizes. The applicatyion will also utilize handlebars. Handlebars is a simple templating language. It uses a template and an input object to generate HTML or other text formats. Handlebars templates look like regular text with embedded Handlebars expressions.
+The client is able to purchase products from our newly designed website as well as receive confirmation of their purchase. When purchasing a new product, the client will also be prompted to enter payment information. At this point, the program will be utilizing stripe. Stripe is a suite of payment APIs that powers commerce for online businesses of all sizes. The application will also utilize handlebars. Handlebars is a simple templating language. It uses a template and an input object to generate HTML or other text formats. Handlebars templates look like regular text with embedded Handlebars expressions.
 
 ## Demo of User-Management-System
 
 [DEMO](https://youtu.be/-aWap6zKTrg)
+
+## Demo of cabanas
+
+[DEMO](https://youtu.be/rwqaqHA3NiM)
 
 ## Installation Instructions for User-Management-System:
 
