@@ -25,11 +25,11 @@ a.disabled {
   pointer-events: none;
 }
 .btn-primary {
-  background-color: #4fa607 !important;
-  border: 1px solid #4fa607 !important;
+  background-color: #0796a6 !important;
+  border: 1px solid #0789a6 !important;
 }
 .Header-green {
-  background-color: #4fa607;
+  background-color: #0789a6;
 }
 /* .screen-overlay {
   width: 0%;
@@ -214,7 +214,7 @@ body.offcanvas-active {
 }
 .main-header .nav-link:hover {
   background-color: #e9ecef;
-  color: #4fa607;
+  color: #077ca6;
 }
 .main-header .col-search {
   flex-grow: 0.5;
@@ -228,7 +228,7 @@ body.offcanvas-active {
   border: 2px solid #eee;
 }
 .nav-item img.rounded-circle:hover {
-  border-color: #4fa607;
+  border-color: #077ca6;
 }
 
 .content-header {
@@ -315,7 +315,7 @@ body.aside-mini .menu-aside .menu-item.has-submenu .menu-link:after {
   font-size: 18px;
 }
 .menu-aside .active .icon {
-  color: #4fa607;
+  color: #0796a6;
 }
 .menu-aside .active {
   background-color: #ebf0fd;
@@ -412,7 +412,7 @@ a[class*="card"] {
   color: initial;
 }
 a[class*="card"]:hover .title {
-  color: #4fa607;
+  color: #076ea6;
 }
 
 /* ITEM LIST */
@@ -450,7 +450,7 @@ a[class*="card"]:hover .title {
   margin-bottom: 5px;
 }
 .itemside a.title:hover {
-  color: #4fa607;
+  color: #0796a6;
 }
 
 a.itemside {
@@ -500,7 +500,7 @@ a.itemside:hover .title {
   text-decoration: none;
 }
 .card-product-grid a.title:hover {
-  color: #4fa607;
+  color: #076ea6;
 }
 .card-product-grid:hover {
   border-color: #adb5bd;
@@ -529,7 +529,7 @@ a.itemside:hover .title {
 .card-user .card-header {
   position: relative;
   height: 100px;
-  background-color: #c3f19d !important;
+  background-color: #9debf1 !important;
   text-align: center;
 }
 .card-user .img-avatar {
@@ -626,7 +626,7 @@ ul.row-sm {
   width: 7px;
   border-radius: 100%;
   height: 7px;
-  background: #4fa607;
+  background: #0781a6;
 }
 
 .list-check {
@@ -642,7 +642,7 @@ ul.row-sm {
   font-family: "Font Awesome 5 Free";
   font-weight: 900;
   font-size: 12px;
-  color: #00b517;
+  color: #008bb5;
   position: absolute;
   top: 2px;
   left: 0;
@@ -659,7 +659,7 @@ ul.row-sm {
 }
 .list-normal li:before {
   content: "•";
-  color: #4fa607;
+  color: #0789a6;
   display: inline-block;
   width: 1em;
   margin-left: -1em;
@@ -677,7 +677,7 @@ ul.row-sm {
   color: #141432;
 }
 .list-menu a:hover {
-  color: #4fa607;
+  color: #0781a6;
 }
 
 .cols-two {
