@@ -1,7 +1,7 @@
-import React, { useState } from "react";
-import { Link, useHistory } from "react-router-dom";
-import { useDispatch, useSelector } from "react-redux";
-import { logout } from "../Redux/Actions/userActions";
+import React, { useState } from 'react';
+import { Link, useHistory } from 'react-router-dom';
+import { useDispatch, useSelector } from 'react-redux';
+import { logout } from '../Redux/Actions/userActions';
 
 const Header = () => {
   const [keyword, setKeyword] = useState();
@@ -22,7 +22,7 @@ const Header = () => {
     if (keyword.trim()) {
       history.push(`/search/${keyword}`);
     } else {
-      history.push("/");
+      history.push('/');
     }
   };
   return (
@@ -35,6 +35,7 @@ const Header = () => {
               <p>Cabana Joes Hospitality Products</p>
               <p>cabanajoe@cabanajoeshospitalityproducts.com</p>
             </div>
+
             <div className=" col-12 col-lg-6 justify-content-center justify-content-lg-end d-flex align-items-center">
               <Link to="">
                 <i className="fab fa-facebook-f"></i>
