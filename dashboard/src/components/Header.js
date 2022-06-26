@@ -1,26 +1,26 @@
-import React, { useEffect } from "react";
-import { Link } from "react-router-dom";
-import $ from "jquery";
-import { useDispatch } from "react-redux";
-import { logout } from "../Redux/Actions/userActions";
+import React, { useEffect } from 'react';
+import { Link } from 'react-router-dom';
+import $ from 'jquery';
+import { useDispatch } from 'react-redux';
+import { logout } from '../Redux/Actions/userActions';
 
 const Header = () => {
   const dispatch = useDispatch();
   useEffect(() => {
-    $("[data-trigger]").on("click", function (e) {
+    $('[data-trigger]').on('click', function (e) {
       e.preventDefault();
       e.stopPropagation();
-      var offcanvas_id = $(this).attr("data-trigger");
-      $(offcanvas_id).toggleClass("show");
+      var offcanvas_id = $(this).attr('data-trigger');
+      $(offcanvas_id).toggleClass('show');
     });
 
-    $(".btn-aside-minimize").on("click", function () {
+    $('.btn-aside-minimize').on('click', function () {
       if (window.innerWidth < 768) {
-        $("body").removeClass("aside-mini");
-        $(".navbar-aside").removeClass("show");
+        $('body').removeClass('aside-mini');
+        $('.navbar-aside').removeClass('show');
       } else {
         // minimize sidebar on desktop
-        $("body").toggleClass("aside-mini");
+        $('body').toggleClass('aside-mini');
       }
     });
   }, []);
@@ -48,7 +48,7 @@ const Header = () => {
             <option value="Products" />
             <option value="New orders" />
             <option value="Apple iphone" />
-            <option value="Ahmed Hassan" />
+            <option value="Admin" />
           </datalist>
         </form>
       </div>

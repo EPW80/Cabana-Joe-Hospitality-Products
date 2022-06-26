@@ -1,4 +1,4 @@
-import React from "react";
+import React from 'react';
 
 const Loading = () => {
   return (
@@ -6,7 +6,7 @@ const Loading = () => {
       <div
         className="spinner-border text-success"
         role="status"
-        style={{ width: "50px", height: "50px" }}
+        style={{ width: '50px', height: '50px' }}
       >
         <span className="sr-only">Loading...</span>
       </div>

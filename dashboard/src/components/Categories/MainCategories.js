@@ -1,6 +1,6 @@
-import React from "react";
-import CreateCategory from "./CreateCategory";
-import CategoriesTable from "./CategoriesTable";
+import React from 'react';
+import CreateCategory from './CreateCategory';
+import CategoriesTable from './CategoriesTable';
 
 const MainCategories = () => {
   return (

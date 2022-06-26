@@ -1,8 +1,8 @@
-import moment from "moment";
-import React from "react";
-import { Link } from "react-router-dom";
-import Message from "../LoadingError/Error";
-import Loading from "../LoadingError/Loading";
+import moment from 'moment';
+import React from 'react';
+import { Link } from 'react-router-dom';
+import Message from '../LoadingError/Error';
+import Loading from '../LoadingError/Loading';
 
 const LatestOrder = (props) => {
   const { loading, error, orders } = props;
@@ -27,7 +27,7 @@ const LatestOrder = (props) => {
                   <td>
                     {order.isPaid ? (
                       <span className="badge rounded-pill alert-success">
-                        Paid At {moment(order.paidAt).format("MMM Do YY")}
+                        Paid At {moment(order.paidAt).format('MMM Do YY')}
                       </span>
                     ) : (
                       <span className="badge rounded-pill alert-danger">
