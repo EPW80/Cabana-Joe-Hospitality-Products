@@ -8,9 +8,9 @@ import {
   ORDER_LIST_FAIL,
   ORDER_LIST_REQUEST,
   ORDER_LIST_SUCCESS,
-} from '../Constants/OrderConstants';
-import { logout } from './userActions';
-import axios from 'axios';
+} from "../Constants/OrderConstants";
+import { logout } from "./userActions";
+import axios from "axios";
 
 export const listOrders = () => async (dispatch, getState) => {
   try {
@@ -34,7 +34,7 @@ export const listOrders = () => async (dispatch, getState) => {
       error.response && error.response.data.message
         ? error.response.data.message
         : error.message;
-    if (message === 'Not authorized, token failed') {
+    if (message === "Not authorized, token failed") {
       dispatch(logout());
     }
     dispatch({
@@ -66,7 +66,7 @@ export const getOrderDetails = (id) => async (dispatch, getState) => {
       error.response && error.response.data.message
         ? error.response.data.message
         : error.message;
-    if (message === 'Not authorized, token failed') {
+    if (message === "Not authorized, token failed") {
       dispatch(logout());
     }
     dispatch({
@@ -102,7 +102,7 @@ export const deliverOrder = (order) => async (dispatch, getState) => {
       error.response && error.response.data.message
         ? error.response.data.message
         : error.message;
-    if (message === 'Not authorized, token failed') {
+    if (message === "Not authorized, token failed") {
       dispatch(logout());
     }
     dispatch({

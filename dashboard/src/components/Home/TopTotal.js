@@ -1,4 +1,4 @@
-import React from 'react';
+import React from "react";
 
 const TopTotal = (props) => {
   const { orders, products } = props;
@@ -17,7 +17,7 @@ const TopTotal = (props) => {
               <i className="text-primary fas fa-usd-circle"></i>
             </span>
             <div className="text">
-              <h6 className="mb-1">Total Sales</h6>{' '}
+              <h6 className="mb-1">Total Sales</h6>{" "}
               <span>${totalSale.toFixed(0)}</span>
             </div>
           </article>

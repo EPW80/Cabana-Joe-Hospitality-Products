@@ -1,9 +1,9 @@
-import React from 'react';
-import TopTotal from './TopTotal';
-import LatestOrder from './LatestOrder';
-import SaleStatistics from './SalesStatistics';
-import ProductsStatistics from './ProductsStatistics';
-import { useSelector } from 'react-redux';
+import React from "react";
+import TopTotal from "./TopTotal";
+import LatestOrder from "./LatestOrder";
+import SaleStatistics from "./SalesStatistics";
+import ProductsStatistics from "./ProductsStatistics";
+import { useSelector } from "react-redux";
 
 const Main = () => {
   const orderList = useSelector((state) => state.orderList);

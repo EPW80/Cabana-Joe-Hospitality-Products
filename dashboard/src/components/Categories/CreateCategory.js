@@ -1,4 +1,4 @@
-import React from 'react';
+import React from "react";
 
 const CreateCategory = () => {
   return (
@@ -29,7 +29,7 @@ const CreateCategory = () => {
         </div>
 
         <div className="d-grid">
-          <button className="btn btn-primary py-3">Create Category</button>
+          <button className="btn btn-primary py-3">Create category</button>
         </div>
       </form>
     </div>

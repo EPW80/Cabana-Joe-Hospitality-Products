@@ -1,8 +1,8 @@
-import React from 'react';
-import Message from '../LoadingError/Error';
-import Loading from '../LoadingError/Loading';
-import Orders from './Orders';
-import { useSelector } from 'react-redux';
+import React from "react";
+import Message from "../LoadingError/Error";
+import Loading from "../LoadingError/Loading";
+import Orders from "./Orders";
+import { useSelector } from "react-redux";
 
 const OrderMain = () => {
   const orderList = useSelector((state) => state.orderList);

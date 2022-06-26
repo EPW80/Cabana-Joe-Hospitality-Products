@@ -1,5 +1,5 @@
-import React from 'react';
-import { Link, NavLink } from 'react-router-dom';
+import React from "react";
+import { Link, NavLink } from "react-router-dom";
 
 const Sidebar = () => {
   return (
@@ -9,9 +9,9 @@ const Sidebar = () => {
           <Link to="/" className="brand-wrap">
             <img
               src="/images/logo.png"
-              style={{ height: '46' }}
+              style={{ height: "46" }}
               className="logo"
-              alt="Ecommerce Dashboard Template"
+              alt="Ecommerce dashboard template"
             />
           </Link>
           <div>

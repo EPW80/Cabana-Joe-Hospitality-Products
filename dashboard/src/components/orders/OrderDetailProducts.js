@@ -1,5 +1,5 @@
-import React from 'react';
-import { Link } from 'react-router-dom';
+import React from "react";
+import { Link } from "react-router-dom";
 
 const OrderDetailProducts = (props) => {
   const { order, loading } = props;
@@ -19,10 +19,10 @@ const OrderDetailProducts = (props) => {
     <table className="table border table-lg">
       <thead>
         <tr>
-          <th style={{ width: '40%' }}>Product</th>
-          <th style={{ width: '20%' }}>Unit Price</th>
-          <th style={{ width: '20%' }}>Quantity</th>
-          <th style={{ width: '20%' }} className="text-end">
+          <th style={{ width: "40%" }}>Product</th>
+          <th style={{ width: "20%" }}>Unit Price</th>
+          <th style={{ width: "20%" }}>Quantity</th>
+          <th style={{ width: "20%" }} className="text-end">
             Total
           </th>
         </tr>
@@ -36,7 +36,7 @@ const OrderDetailProducts = (props) => {
                   <img
                     src={item.image}
                     alt={item.name}
-                    style={{ width: '40px', height: '40px' }}
+                    style={{ width: "40px", height: "40px" }}
                     className="img-xs"
                   />
                 </div>

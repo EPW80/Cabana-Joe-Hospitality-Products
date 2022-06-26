@@ -1,10 +1,10 @@
-import React, { useEffect } from 'react';
-import { Link } from 'react-router-dom';
-import Product from './Product';
-import { useDispatch, useSelector } from 'react-redux';
-import { listProducts } from '../../Redux/Actions/ProductActions';
-import Loading from '../LoadingError/Loading';
-import Message from '../LoadingError/Error';
+import React, { useEffect } from "react";
+import { Link } from "react-router-dom";
+import Product from "./Product";
+import { useDispatch, useSelector } from "react-redux";
+import { listProducts } from "../../Redux/Actions/ProductActions";
+import Loading from "../LoadingError/Loading";
+import Message from "../LoadingError/Error";
 
 const MainProducts = () => {
   const dispatch = useDispatch();
@@ -45,7 +45,7 @@ const MainProducts = () => {
                 <option>All category</option>
                 <option>Electronics</option>
                 <option>Clothings</option>
-                <option>Category</option>
+                <option>Something else</option>
               </select>
             </div>
             <div className="col-lg-2 col-6 col-md-3">

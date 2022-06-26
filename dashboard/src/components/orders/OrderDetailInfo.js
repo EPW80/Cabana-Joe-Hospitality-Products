@@ -1,4 +1,4 @@
-import React from 'react';
+import React from "react";
 
 const OrderDetailInfo = (props) => {
   const { order } = props;
@@ -26,7 +26,7 @@ const OrderDetailInfo = (props) => {
           <div className="text">
             <h6 className="mb-1">Order info</h6>
             <p className="mb-1">
-              Shipping: {order.shippingAddress.country} <br /> Pay method:{' '}
+              Shipping: {order.shippingAddress.country} <br /> Pay method:{" "}
               {order.paymentMethod}
             </p>
           </div>

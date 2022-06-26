@@ -1,4 +1,4 @@
-import React from 'react';
+import React from "react";
 
 const Message = ({ variant, children }) => {
   return (
@@ -9,7 +9,7 @@ const Message = ({ variant, children }) => {
 };
 
 Message.defaultProps = {
-  variant: 'alert-info',
+  variant: "alert-info",
 };
 
 export default Message;

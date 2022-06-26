@@ -1,15 +1,15 @@
-import React, { useEffect } from 'react';
-import OrderDetailProducts from './OrderDetailProducts';
-import OrderDetailInfo from './OrderDetailInfo';
-import { Link } from 'react-router-dom';
-import { useDispatch, useSelector } from 'react-redux';
+import React, { useEffect } from "react";
+import OrderDetailProducts from "./OrderDetailProducts";
+import OrderDetailInfo from "./OrderDetailInfo";
+import { Link } from "react-router-dom";
+import { useDispatch, useSelector } from "react-redux";
 import {
   deliverOrder,
   getOrderDetails,
-} from '../../Redux/Actions/OrderActions';
-import Loading from '../LoadingError/Loading';
-import Message from '../LoadingError/Error';
-import moment from 'moment';
+} from "../../Redux/Actions/OrderActions";
+import Loading from "../LoadingError/Loading";
+import Message from "../LoadingError/Error";
+import moment from "moment";
 
 const OrderDetailmain = (props) => {
   const { orderId } = props;
@@ -49,7 +49,7 @@ const OrderDetailmain = (props) => {
                 <span>
                   <i className="far fa-calendar-alt mx-2"></i>
                   <b className="text-white">
-                    {moment(order.createdAt).format('llll')}
+                    {moment(order.createdAt).format("llll")}
                   </b>
                 </span>
                 <br />
@@ -60,7 +60,7 @@ const OrderDetailmain = (props) => {
               <div className="col-lg-6 col-md-6 ms-auto d-flex justify-content-end align-items-center">
                 <select
                   className="form-select d-inline-block"
-                  style={{ maxWidth: '200px' }}
+                  style={{ maxWidth: "200px" }}
                 >
                   <option>Change status</option>
                   <option>Awaiting payment</option>
@@ -89,8 +89,8 @@ const OrderDetailmain = (props) => {
                 <div className="box shadow-sm bg-light">
                   {order.isDelivered ? (
                     <button className="btn btn-success col-12">
-                      DELIVERED AT ({' '}
-                      {moment(order.isDeliveredAt).format('MMM Do YY')})
+                      DELIVERED AT ({" "}
+                      {moment(order.isDeliveredAt).format("MMM Do YY")})
                     </button>
                   ) : (
                     <>
