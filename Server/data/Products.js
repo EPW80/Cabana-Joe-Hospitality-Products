@@ -13,7 +13,7 @@ const products = [
     image: '/images/effo.png',
     description:
       "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book",
-    price: 5999,
+    price: 999,
     countInStock: 10,
     rating: 2,
     numReviews: 2,
@@ -51,6 +51,16 @@ const products = [
   {
     name: 'Gscu Umbrella',
     image: '/images/gscu.png',
+    description:
+      "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book",
+    price: 299,
+    countInStock: 20,
+    rating: 4,
+    numReviews: 3,
+  },
+  {
+    name: '110-lb Base',
+    image: '/images/bases.jpg',
     description:
       "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book",
     price: 299,

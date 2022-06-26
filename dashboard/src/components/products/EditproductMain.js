@@ -1,15 +1,15 @@
-import React, { useState, useEffect } from "react";
-import Toast from "./../LoadingError/Toast";
-import { Link } from "react-router-dom";
-import { useDispatch, useSelector } from "react-redux";
+import React, { useState, useEffect } from 'react';
+import Toast from './../LoadingError/Toast';
+import { Link } from 'react-router-dom';
+import { useDispatch, useSelector } from 'react-redux';
 import {
   editProduct,
   updateProduct,
-} from "./../../Redux/Actions/ProductActions";
-import { PRODUCT_UPDATE_RESET } from "../../Redux/Constants/ProductConstants";
-import { toast } from "react-toastify";
-import Message from "../LoadingError/Error";
-import Loading from "../LoadingError/Loading";
+} from './../../Redux/Actions/ProductActions';
+import { PRODUCT_UPDATE_RESET } from '../../Redux/Constants/ProductConstants';
+import { toast } from 'react-toastify';
+import Message from '../LoadingError/Error';
+import Loading from '../LoadingError/Loading';
 
 const ToastObjects = {
   pauseOnFocusLoss: false,
@@ -21,11 +21,11 @@ const ToastObjects = {
 const EditProductMain = (props) => {
   const { productId } = props;
 
-  const [name, setName] = useState("");
+  const [name, setName] = useState('');
   const [price, setPrice] = useState(0);
-  const [image, setImage] = useState("");
+  const [image, setImage] = useState('');
   const [countInStock, setCountInStock] = useState(0);
-  const [description, setDescription] = useState("");
+  const [description, setDescription] = useState('');
 
   const dispatch = useDispatch();
 
@@ -42,7 +42,7 @@ const EditProductMain = (props) => {
   useEffect(() => {
     if (successUpdate) {
       dispatch({ type: PRODUCT_UPDATE_RESET });
-      toast.success("Product Updated", ToastObjects);
+      toast.success('Product Updated', ToastObjects);
     } else {
       if (!product.name || product._id !== productId) {
         dispatch(editProduct(productId));
@@ -73,7 +73,7 @@ const EditProductMain = (props) => {
   return (
     <>
       <Toast />
-      <section className="content-main" style={{ maxWidth: "1200px" }}>
+      <section className="content-main" style={{ maxWidth: '1200px' }}>
         <form onSubmit={submitHandler}>
           <div className="content-header">
             <Link to="/products" className="btn btn-danger text-white">
