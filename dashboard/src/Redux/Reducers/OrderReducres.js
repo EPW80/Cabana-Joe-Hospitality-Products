@@ -9,7 +9,7 @@ import {
   ORDER_LIST_FAIL,
   ORDER_LIST_REQUEST,
   ORDER_LIST_SUCCESS,
-} from "../Constants/OrderConstants";
+} from '../Constants/OrderConstants';
 
 export const orderListReducer = (state = { orders: [] }, action) => {
   switch (action.type) {

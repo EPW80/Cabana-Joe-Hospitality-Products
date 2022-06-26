@@ -11,7 +11,7 @@ const Sidebar = () => {
               src="/images/logo.png"
               style={{ height: '46' }}
               className="logo"
-              alt="Ecommerce dashboard template"
+              alt="Ecommerce Dashboard Template"
             />
           </Link>
           <div>

@@ -50,12 +50,12 @@ const AddProductMain = () => {
         <form onSubmit={submitHandler}>
           <div className="content-header">
             <Link to="/products" className="btn btn-danger text-white">
-              Go to products
+              Go To Products
             </Link>
             <h2 className="content-title">Add product</h2>
             <div>
               <button type="submit" className="btn btn-primary">
-                Publish now
+                Publish Now
               </button>
             </div>
           </div>

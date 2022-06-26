@@ -1,8 +1,8 @@
-import moment from "moment";
-import React from "react";
-import { Link } from "react-router-dom";
-import Message from "../LoadingError/Error";
-import Loading from "../LoadingError/Loading";
+import moment from 'moment';
+import React from 'react';
+import { Link } from 'react-router-dom';
+import Message from '../LoadingError/Error';
+import Loading from '../LoadingError/Loading';
 const Orders = (props) => {
   const { loading, error, orders } = props;
   return (
@@ -20,7 +20,7 @@ const Orders = (props) => {
                 className="btn btn-success mx-2 px-3 py-2"
                 to="/"
                 style={{
-                  fontSize: "12px",
+                  fontSize: '12px',
                 }}
               >
                 START SHOPPING
@@ -41,7 +41,7 @@ const Orders = (props) => {
                   {orders.map((order) => (
                     <tr
                       className={`${
-                        order.isPaid ? "alert-success" : "alert-danger"
+                        order.isPaid ? 'alert-success' : 'alert-danger'
                       }`}
                       key={order._id}
                     >

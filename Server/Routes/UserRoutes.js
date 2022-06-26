@@ -1,14 +1,14 @@
-import express from "express";
-import asyncHandler from "express-async-handler";
-import protect from "../Middleware/AuthMiddleware.js";
-import generateToken from "../utils/generateToken.js";
-import User from "./../Models/UserModel.js";
+import express from 'express';
+import asyncHandler from 'express-async-handler';
+import protect from '../Middleware/AuthMiddleware.js';
+import generateToken from '../utils/generateToken.js';
+import User from './../Models/UserModel.js';
 
 const userRouter = express.Router();
 
 // LOGIN
 userRouter.post(
-  "/login",
+  '/login',
   asyncHandler(async (req, res) => {
     const { email, password } = req.body;
     const user = await User.findOne({ email });
@@ -24,14 +24,14 @@ userRouter.post(
       });
     } else {
       res.status(401);
-      throw new Error("Invalid Email or Password");
+      throw new Error('Invalid Email or Password');
     }
   })
 );
 
 // REGISTER
 userRouter.post(
-  "/",
+  '/',
   asyncHandler(async (req, res) => {
     const { name, email, password } = req.body;
 
@@ -39,7 +39,7 @@ userRouter.post(
 
     if (userExists) {
       res.status(400);
-      throw new Error("User already exists");
+      throw new Error('User already exists');
     }
 
     const user = await User.create({
@@ -58,14 +58,14 @@ userRouter.post(
       });
     } else {
       res.status(400);
-      throw new Error("Invalid User Data");
+      throw new Error('Invalid User Data');
     }
   })
 );
 
 // PROFILE
 userRouter.get(
-  "/profile",
+  '/profile',
   protect,
   asyncHandler(async (req, res) => {
     const user = await User.findById(req.user._id);
@@ -80,14 +80,14 @@ userRouter.get(
       });
     } else {
       res.status(404);
-      throw new Error("User not found");
+      throw new Error('User not found');
     }
   })
 );
 
 // UPDATE PROFILE
 userRouter.put(
-  "/profile",
+  '/profile',
   protect,
   asyncHandler(async (req, res) => {
     const user = await User.findById(req.user._id);
@@ -109,7 +109,7 @@ userRouter.put(
       });
     } else {
       res.status(404);
-      throw new Error("User not found");
+      throw new Error('User not found');
     }
   })
 );

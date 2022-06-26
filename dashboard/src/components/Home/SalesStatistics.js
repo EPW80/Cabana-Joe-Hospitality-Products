@@ -7,7 +7,7 @@ const SaleStatistics = () => {
         <article className="card-body">
           <h5 className="card-title">Sale Statistics</h5>
 
-          <iframe title="Sale statistics"
+          <iframe title="SaleStatistics"
             style={{
               background: '#FFFFFF',
               border: 'none',

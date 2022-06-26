@@ -1,11 +1,7 @@
-import React from "react";
+import React from 'react';
 
 const CalltoActionSection = () => {
   return (
-
-    
-
-
     <div className="subscribe-section bg-with-black">
       <div className="container">
         <div className="row">
@@ -22,8 +18,6 @@ const CalltoActionSection = () => {
         </div>
       </div>
     </div>
-
-
   );
 };
 
