@@ -3,6 +3,7 @@ package-lock.json
 .DS_Store
 .env
 .vs
+dotenv_credentials.txt
 
 # Logs
 logs
