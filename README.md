@@ -1,4 +1,4 @@
-# Cabana-Joe-Hospitality-Products
+# MERN-Stack
 
 ## Purpose
 
