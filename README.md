@@ -11,10 +11,6 @@ The client is able to purchase products from our newly designed website as well 
 
 [DEMO](https://youtu.be/-aWap6zKTrg)
 
-## Demo of cabanas
-
-[DEMO](https://youtu.be/rwqaqHA3NiM)
-
 ## Demo of Frontend with Backend, Server and dashboard folders
 
 [DEMO](https://drive.google.com/file/d/1QL3t67_HJbjqiXbcHCCxQMHypU61nf0d/view)
@@ -53,11 +49,11 @@ $ npm start
 
 ## Website
 
-https://github.com/EPW80/Cabana-Joe-Hospitality-Products
+https://github.com/EPW80/MERN-Stack
 
 ## Deployment
 
-https://epw80.github.io/Cabana-Joe-Hospitality-Products/
+https://client-side-cabana-joe-hp.herokuapp.com/
 
 ## Mock-up
 
