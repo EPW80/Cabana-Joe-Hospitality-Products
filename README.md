@@ -16,6 +16,10 @@ $ npm install
 $ npm start
 ```
 
+## User Information
+
+Register your new credentials in order to use entire store
+
 ## Built With
 
 - [HTML](https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web/HTML_basics)
