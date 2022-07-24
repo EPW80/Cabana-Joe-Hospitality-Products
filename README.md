@@ -58,7 +58,7 @@ https://client-side-cabana-joe-hp.herokuapp.com/
 ## Mock-up
 
 ![CJHP: Erik Williams](./User-Management-System/images/cjhp.png)
-![CJHP: Erik Williams](./User-Management-System/images/cjhp1.png)
+<!-- ![CJHP: Erik Williams](./User-Management-System/images/cjhp1.png) -->
 ![CJHP: Erik Williams](./User-Management-System/images/cjhp2.png)
 ![CJHP: Erik Williams](./User-Management-System/images/cjhp3.png)
 
@@ -68,22 +68,15 @@ https://client-side-cabana-joe-hp.herokuapp.com/
 
 for more information or if you have a question:
 <br>
-email [erikpw009@gmail.com](erikpw009@gmail.com).
-<br>
-email [antyhonyledesma12@yahoo.com](antyhonyledesma12@yahoo.com).
+email [Erik Williams](erikparrawilliams@gmail.com).
+
 
 ## Contribution:
 
-Anthony Ledesma
-<br />
 Erik Williams
-<br />
-Angel Sandoval
 
 ## License
 
 MIT License
-
-- See file
 
 #### ©️2022
