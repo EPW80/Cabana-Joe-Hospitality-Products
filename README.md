@@ -33,8 +33,8 @@ https://client-side-cabana-joe-hp.herokuapp.com/
 
 ## Mock-up
 
-![CJHP: Erik Williams](./User-Management-System/images/cjhp2.png)
-![CJHP: Erik Williams](./User-Management-System/images/cjhp3.png)
+![CJHP:Erik Williams](./Frontend-with-backend/public/images/cjhp.png)
+![CJHP:Erik Williams](./Frontend-with-backend/public/images/cjhp2.png)
 
 
 
